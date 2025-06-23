@@ -1,6 +1,6 @@
 from pathlib import Path
 env_path = Path(".") / ".env"         
-env_path.write_text("OPENAI_API_KEY=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\n")
+env_path.write_text("OPENAI_API_KEY=key\n")
 
 """faq_rag_runtime.py
 Load the pre‑built FAQ Chroma store and expose ask_faq().
