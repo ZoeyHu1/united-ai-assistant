@@ -255,7 +255,7 @@ Always respond with JSON only, filling any missing fields with null.
 
 if __name__ == "__main__":
     # === Configuration ===
-    API_KEY     = "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"
+    API_KEY     = "your_key"
     API_URL     = "https://api.groq.com/openai/v1/chat/completions"
     MODEL       = "llama3-70b-8192"
     FLIGHTS_CSV = "Mock_flights.csv"
